@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="bg-moneda">
+      <h2>
+        Pruebas
+      </h2>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum maxime mollitia, sequi harum corrupti.
+      Voluptatibus voluptas, impedit minus beatae aspernatur quisquam, totam quasi aliquid odit expedita nemo similique
+      facere!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit doloribus necessitatibus repellat culpa
+      consequatur molestiae exercitationem aperiam est amet dolorem reiciendis quisquam vero nam illum, recusandae
+      architecto delectus vitae officiis!
+    </p>
+    <form>
+      <input type="text" placeholder="Nombre" id="nombreValue">
+      <input type="text" placeholder="Apellido" id="apellidoValue">
+      <input type="number" placeholder="Cantidad del prestamo" id="prestamoValue">
+      <input type="number" placeholder="Cuotas a devolver" id="cuotasValue">
+      <button type="reset" onclick="botonListo()">Listo</button>
+    </form>
+    <table class="table table-striped" id="tablaInfo">
+      <thead>
+        <tr>
+          <th scope="row">Cantidad del prestamo:</th>
+          <th>Nombre:</th>
+          <th>Apellido:</th>
+          <th>Cuotas:</th>
+          <th>%Interes anual:</th>
+        </tr>
+      </thead>
+      
+    </table>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
