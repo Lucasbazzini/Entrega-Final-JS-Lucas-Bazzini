@@ -11,11 +11,11 @@
 </head>
 
 <body>
-
   <div class="container">
+    <button class="mode" id="theme"><img class="logo" src="./soleado.png"></button>
     <div class="bg-moneda">
       <h2>
-        Pruebas
+        Prestamo
       </h2>
     </div>
     <p>
@@ -33,7 +33,7 @@
       <input type="text" placeholder="Apellido" id="apellidoValue">
       <input type="number" placeholder="Cantidad del prestamo" id="prestamoValue">
       <input type="number" placeholder="Cuotas a devolver" id="cuotasValue">
-      <button type="reset" onclick="botonListo()">Listo</button>
+      <button type="reset" class="btn_listo" onclick="botonListo()">Listo</button>
     </form>
     <table class="table table-striped" id="tablaInfo">
       <thead>
@@ -45,8 +45,11 @@
           <th>%Interes anual:</th>
         </tr>
       </thead>
-      
     </table>
+  </div>
+  <div style="display: flex;flex-direction: column;">
+    <button style="margin: 2rem 0;" id="historialButton">Ver Historial</button>
+    <button style="margin: 2rem 0;" id="borrarHistorialButton">Borrar Historial</button>
   </div>
   <script src="index.js"></script>
 </body>
