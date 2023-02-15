@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
 </head>
 
 <body>
@@ -17,6 +19,15 @@
       <h2>
         Prestamo
       </h2>
+    </div>
+    <div>
+      <h2>Tipos de cambios mas utilizados:</h2>
+      <div style="display:flex;align-items: center;justify-content: center;flex-direction: column;">
+        <div style="margin:1rem;" id="exchange-rate-ars"></div>
+        <div style="margin:1rem;" id="exchange-rate-brl"></div>
+        <div style="margin:1rem;" id="exchange-rate-clp"></div>
+        <div style="margin:1rem;" id="exchange-rate-gbp"></div>
+      </div>
     </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum maxime mollitia, sequi harum corrupti.
